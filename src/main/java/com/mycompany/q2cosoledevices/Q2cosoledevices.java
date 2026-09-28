@@ -11,6 +11,9 @@ package com.mycompany.q2cosoledevices;
 public class Q2cosoledevices {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        ConsoleSales report = new ConsoleSales(deviceType, storeName, totalOfSales);
+        report.printBookingReport();
+        
     }
 }
