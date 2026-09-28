@@ -12,6 +12,9 @@ public class Q2cosoledevices {
 
     public static void main(String[] args) {
         
+        System.out.println(" Enter the store");
+        input
+        
         ConsoleSales report = new ConsoleSales(deviceType, storeName, totalOfSales);
         report.printBookingReport();
         
